@@ -167,7 +167,7 @@ class ResumeData {
     },
     {
       'company': 'Kindra',
-      'role': 'Software Developer',
+      'role': 'Software Engineer Intern',
       'period': 'Jan 2021 - Nov 2021',
       'location': 'Toledo, PR',
       'description': 'Focused on Embedded Systems, HMI, and real-time sensor communication.',
