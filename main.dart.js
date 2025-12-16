@@ -919,7 +919,7 @@ pJ(){return B.c.U(self.window.performance.now()*1000)},
 aBc(a){if($.akP!=null)return
 $.akP=new A.a26(a.gcJ())},
 aBa(a){var s,r,q,p,o,n,m
-$label0$0:for(s=a.length,r=0;r<6;++r){q=B.ES[r]
+$label0$0:for(s=a.length,r=0;r<6;++r){q=B.ER[r]
 p=q.a
 o=p.length
 if(s<o)continue $label0$0
@@ -63082,7 +63082,7 @@ this.cF()
 this.iX()}}
 A.ID.prototype={
 X(a){var s=null,r=A.cG(a,s,t.l).w.a.a<600,q=r?20:80,p=A.a([B.LN,B.cB],t.p)
-B.b.O(p,new A.wa(B.ER,t.VJ).gdh().dH(0,new A.a5R(r),t.l7))
+B.b.O(p,new A.wa(B.ES,t.VJ).gdh().dH(0,new A.a5R(r),t.l7))
 return A.bz(s,A.dt(p,B.y,B.x,B.B),B.n,s,s,s,s,s,s,new A.aY(q,80,q,80),s,s,1/0)}}
 A.a5R.prototype={
 $1(a){var s=a.a,r=J.fG(s)
@@ -68405,16 +68405,6 @@ B.EE=A.a(s([B.jK,B.ym]),A.ae("x<AA>"))
 B.EI=A.a(s([B.fn,B.fo]),A.ae("x<uf>"))
 B.mr=A.a(s([0,0,26624,1023,65534,2047,65534,2047]),t.t)
 B.dc=A.a(s([B.c8,B.bb,B.dN,B.dO,B.fm]),t.QP)
-B.eA={company:0,role:1,period:2,location:3,description:4,highlights:5}
-B.F4=A.a(s(["Develop complex mobile features using Flutter & Dart with robust Bloc/Cubit state management.","Collaborate within a global cross-functional team to deliver premium automotive experiences.","Ensure code quality and reliability by writing comprehensive unit and widget tests using bloc_test and mocktail"]),t.s)
-B.IB=new A.M(B.eA,["\xcdlia (BMW Group)","Mobile Software Engineer","Sep 2024 - Present","S\xe3o Carlos, SP / Remote","Driving innovation for the MyBMW and MINI apps in a global Agile environment.",B.F4],t.R)
-B.Ft=A.a(s(["Architected cross-platform Flutter solutions and scalable Python/Django backend services.","Engineered automated CI/CD pipelines using GitLab CI and Fastlane, reducing deployment time.","Managed end-to-end product lifecycle for Google Play Store releases and updates."]),t.s)
-B.IC=new A.M(B.eA,["Kindra","Software Engineer","Mar 2023 - Sep 2024","Toledo, PR / Remote","Led the full-stack architecture for a pioneering Agribusiness IoT startup.",B.Ft],t.R)
-B.EQ=A.a(s(["Spearheaded the integration of Linx's custom payment system into Stone Smart POS devices.","Integrated proprietary Android applications with Business Intelligence (BI) tools for real-time analytics.","Maintained and secured legacy mobile codebases, ensuring operational stability."]),t.s)
-B.Iz=new A.M(B.eA,["Linx","R&D Developer","Nov 2021 - Feb 2023","Cascavel, PR","Specialized in Smart POS hardware integration and payment ecosystems.",B.EQ],t.R)
-B.Fv=A.a(s(["Engineered mobile HMI for IoT Smart Counting solutions using Flutter and REST APIs.","Developed high-efficiency sensor backends in Python, later porting to C++ for performance optimization."]),t.s)
-B.IA=new A.M(B.eA,["Kindra","Software Developer","Jan 2021 - Nov 2021","Toledo, PR","Focused on Embedded Systems, HMI, and real-time sensor communication.",B.Fv],t.R)
-B.ER=A.a(s([B.IB,B.IC,B.Iz,B.IA]),t.gG)
 B.F1=A.a(s([137,80,78,71,13,10,26,10]),t.Z)
 B.Di=new A.iE(B.F1,"image/png")
 B.EY=A.a(s([71,73,70,56,55,97]),t.Z)
@@ -68427,10 +68417,20 @@ B.EH=A.a(s([82,73,70,70,null,null,null,null,87,69,66,80]),t.Z)
 B.Dk=new A.iE(B.EH,"image/webp")
 B.Ev=A.a(s([66,77]),t.Z)
 B.Dj=new A.iE(B.Ev,"image/bmp")
-B.ES=A.a(s([B.Di,B.Dm,B.Dn,B.Dl,B.Dk,B.Dj]),A.ae("x<iE>"))
+B.ER=A.a(s([B.Di,B.Dm,B.Dn,B.Dl,B.Dk,B.Dj]),A.ae("x<iE>"))
 B.FE=new A.kM("en","US")
 B.ms=A.a(s([B.FE]),t.ss)
 B.mt=A.a(s([0,0,65490,12287,65535,34815,65534,18431]),t.t)
+B.eA={company:0,role:1,period:2,location:3,description:4,highlights:5}
+B.F4=A.a(s(["Develop complex mobile features using Flutter & Dart with robust Bloc/Cubit state management.","Collaborate within a global cross-functional team to deliver premium automotive experiences.","Ensure code quality and reliability by writing comprehensive unit and widget tests using bloc_test and mocktail"]),t.s)
+B.IB=new A.M(B.eA,["\xcdlia (BMW Group)","Mobile Software Engineer","Sep 2024 - Present","S\xe3o Carlos, SP / Remote","Driving innovation for the MyBMW and MINI apps in a global Agile environment.",B.F4],t.R)
+B.Ft=A.a(s(["Architected cross-platform Flutter solutions and scalable Python/Django backend services.","Engineered automated CI/CD pipelines using GitLab CI and Fastlane, reducing deployment time.","Managed end-to-end product lifecycle for Google Play Store releases and updates."]),t.s)
+B.IC=new A.M(B.eA,["Kindra","Software Engineer","Mar 2023 - Sep 2024","Toledo, PR / Remote","Led the full-stack architecture for a pioneering Agribusiness IoT startup.",B.Ft],t.R)
+B.EQ=A.a(s(["Spearheaded the integration of Linx's custom payment system into Stone Smart POS devices.","Integrated proprietary Android applications with Business Intelligence (BI) tools for real-time analytics.","Maintained and secured legacy mobile codebases, ensuring operational stability."]),t.s)
+B.IA=new A.M(B.eA,["Linx","R&D Developer","Nov 2021 - Feb 2023","Cascavel, PR","Specialized in Smart POS hardware integration and payment ecosystems.",B.EQ],t.R)
+B.Fv=A.a(s(["Engineered mobile HMI for IoT Smart Counting solutions using Flutter and REST APIs.","Developed high-efficiency sensor backends in Python, later porting to C++ for performance optimization."]),t.s)
+B.Iz=new A.M(B.eA,["Kindra","Software Engineer Intern","Jan 2021 - Nov 2021","Toledo, PR","Focused on Embedded Systems, HMI, and real-time sensor communication.",B.Fv],t.R)
+B.ES=A.a(s([B.IB,B.IC,B.IA,B.Iz]),t.gG)
 B.ET=A.a(s(["pointerdown","pointermove","pointerleave","pointerup","pointercancel","touchstart","touchend","touchmove","touchcancel","mousedown","mousemove","mouseleave","mouseup","keyup","keydown"]),t.s)
 B.NS=new A.yp(0,"left")
 B.NT=new A.yp(1,"right")
