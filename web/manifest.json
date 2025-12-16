@@ -1,11 +1,11 @@
 {
-    "name": "my_website_cv",
-    "short_name": "my_website_cv",
+    "name": "Raphael de Castro's CV",
+    "short_name": "Raphael de Castro's CV",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Raphael de Castro's CV website built with Flutter.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
