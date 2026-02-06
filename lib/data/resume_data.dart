@@ -114,6 +114,7 @@ class ResumeData {
     {'name': 'SQL', 'level': 0.90, 'category': 'Backend'},
     {'name': 'NoSQL', 'level': 0.80, 'category': 'Backend'},
     {'name': 'Kotlin', 'level': 0.85, 'category': 'Mobile'},
+    {'name': 'Swift', 'level': 0.75, 'category': 'Mobile'},
     {'name': 'C/C++', 'level': 0.80, 'category': 'Embedded'},
     {'name': 'Clean Arch.', 'level': 0.95, 'category': 'Architecture'},
     {'name': 'SOLID', 'level': 0.95, 'category': 'Architecture'},
@@ -138,6 +139,7 @@ class ResumeData {
       'highlights': [
         'Develop complex mobile features using Flutter & Dart with robust Bloc/Cubit state management.',
         'Collaborate within a global cross-functional team to deliver premium automotive experiences.',
+        'Integrated custom native functionalities using Kotlin and Swift, enhancing app capabilities.',
         'Ensure code quality and reliability by writing comprehensive unit and widget tests using bloc_test and mocktail',
       ],
     },
