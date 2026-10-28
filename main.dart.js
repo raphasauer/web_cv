@@ -70121,7 +70121,7 @@ r=A.bj(a).ok.e.kT(B.bh)
 r=A.mb(A.WA(new A.vJ(A.c([A.a9F("Software Engineer",B.aC),A.a9F("Mobile Developer",B.aC),A.a9F("Flutter Enthusiast",B.aC),A.a9F("App architect",B.aC)],t.u6),!0,n),n,B.cc,!0,r,n,n,B.aE),40,n)
 q=A.bj(a).ok.y
 q=q==null?n:q.a5E(1.8)
-q=A.bV(n,A.cn("High-performance Software Engineer specializing in Mobile (Flutter) and Backend (Python/Django) architecture. Currently engineering premium digital experiences for BMW & MINI at \xcdlia. I bridge the gap between complex embedded hardware and seamless user interfaces, delivering scalable solutions for global markets.",n,n,q,b?B.bw:B.ar),B.q,n,B.Aa,n,n,n,n,n,n,n,n)
+q=A.bV(n,A.cn("High-performance Software Engineer specializing in Mobile (Flutter) architecture. Currently engineering premium digital experiences for BMW & MINI at \xcdlia. I bridge the gap between complex embedded hardware and seamless user interfaces, delivering scalable solutions for global markets.",n,n,q,b?B.bw:B.ar),B.q,n,B.Aa,n,n,n,n,n,n,n,n)
 p=b?B.cl:B.ck
 o=t.p
 return A.dX(A.c([l,B.jA,s,B.cb,r,B.PJ,q,B.PK,A.ue(p,A.c([this.FR(B.ir,"S\xe3o Carlos, SP, Brazil"),this.FR(B.nv,"raphasauer@gmail.com")],o),B.cZ,16,16)],o),m,B.B,B.F)},
