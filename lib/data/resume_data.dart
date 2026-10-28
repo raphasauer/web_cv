@@ -3,7 +3,7 @@ class ResumeData {
   static const String title = "Software Engineer";
   static const String email = "raphasauer@gmail.com";
   static const String location = "São Carlos, SP, Brazil";
-  static const String linkedIn = "www.linkedin.com/in/raphael-de-castro-228288202";
+  static const String linkedIn = "https://www.linkedin.com/in/raphael-d-228288202";
   static const String github = "https://github.com/raphasauer"; 
 
   static const String introText = 
