@@ -110,19 +110,28 @@ class ResumeData {
 
   static const List<Map<String, dynamic>> skills = [
     {'name': 'Flutter/Dart', 'level': 0.98, 'category': 'Mobile'},
-    {'name': 'Python/Django', 'level': 0.90, 'category': 'Backend'},
+    {'name': 'Python/Django', 'level': 0.50, 'category': 'Backend'},
     {'name': 'SQL', 'level': 0.90, 'category': 'Backend'},
     {'name': 'NoSQL', 'level': 0.80, 'category': 'Backend'},
-    {'name': 'Kotlin', 'level': 0.85, 'category': 'Mobile'},
-    {'name': 'Swift', 'level': 0.75, 'category': 'Mobile'},
-    {'name': 'C/C++', 'level': 0.80, 'category': 'Embedded'},
+    {'name': 'Kotlin', 'level': 0.50, 'category': 'Mobile'},
+    {'name': 'Swift', 'level': 0.35, 'category': 'Mobile'},
+    {'name': 'React', 'level': 0.60, 'category': 'Mobile'},
     {'name': 'Clean Arch.', 'level': 0.95, 'category': 'Architecture'},
     {'name': 'SOLID', 'level': 0.95, 'category': 'Architecture'},
+    {'name': 'MVVM', 'level': 0.80, 'category': 'Architecture'},
+    {'name': 'Spec Driven Development', 'level': 0.95, 'category': 'AI Development'},
+    {'name': 'AI Native SDLC', 'level': 0.80, 'category': 'AI Development'},
+    {'name': 'Agent Orchestration', 'level': 0.90, 'category': 'AI Development'},
+    {'name': 'Willingness to Learn', 'level': 1.50, 'category': 'Soft Skills'},
+    {'name': 'Team Player', 'level': 1.50, 'category': 'Soft Skills'},
+    {'name': 'Ownership', 'level': 2.00, 'category': 'Soft Skills'},
     {'name': 'Bloc/Cubit', 'level': 0.95, 'category': 'State Mgmt'},
     {'name': 'Riverpod', 'level': 0.85, 'category': 'State Mgmt'},
     {'name': 'CI/CD (Fastlane)', 'level': 0.85, 'category': 'DevOps'},
     {'name': 'Docker', 'level': 0.75, 'category': 'DevOps'},
     {'name': 'Git/GitLab', 'level': 0.90, 'category': 'Tools'},
+    {'name': 'Insomnia/Postman', 'level': 0.50, 'category': 'Tools'},
+    {'name': 'DBeaver', 'level': 0.75, 'category': 'Tools'},
     {'name': 'REST APIs', 'level': 0.92, 'category': 'Backend'},
     {'name': 'Unit Testing', 'level': 0.95, 'category': 'Quality'},
     {'name': 'Widget Testing', 'level': 0.90, 'category': 'Quality'},
@@ -130,6 +139,18 @@ class ResumeData {
   ];
 
   static const List<Map<String, dynamic>> workHistory = [
+    {
+      'company': 'Awesome Company (Awesome Client)',
+      'role': 'Maybe Your Company Here',
+      'period': 'Next - Future',
+      'location': 'Wherever you are / Remote',
+      'description': 'Bringing 200% ownership and 150% willingness to learn to your team.',
+      'highlights': [
+        'Shipping great mobile experiences from day one.',
+        'Turning your specs into features (and your bugs into tests).',
+        'Probably already reading your docs.',
+      ],
+    },
     {
       'company': 'Ília (BMW Group)',
       'role': 'Mobile Software Engineer',

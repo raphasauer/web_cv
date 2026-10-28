@@ -102,6 +102,10 @@ class SkillsSection extends StatelessWidget {
         return Icons.build;
       case 'Design':
         return Icons.palette;
+      case 'AI Development':
+        return Icons.auto_awesome;
+      case 'Soft Skills':
+        return Icons.psychology;
       default:
         return Icons.star;
     }
@@ -178,6 +182,9 @@ class _SkillProgressBarState extends State<SkillProgressBar>
 
   @override
   Widget build(BuildContext context) {
+    // Levels above 100% fill the bar and get a stronger glow
+    final overflows = widget.level > 1.0;
+
     return AnimatedBuilder(
       animation: _animation,
       builder: (context, child) {
@@ -189,15 +196,17 @@ class _SkillProgressBarState extends State<SkillProgressBar>
           ),
           child: FractionallySizedBox(
             alignment: Alignment.centerLeft,
-            widthFactor: _animation.value,
+            widthFactor: _animation.value.clamp(0.0, 1.0),
             child: Container(
               decoration: BoxDecoration(
                 gradient: AppTheme.primaryGradient,
                 borderRadius: BorderRadius.circular(4),
                 boxShadow: [
                   BoxShadow(
-                    color: AppTheme.primaryColor.withOpacity(0.5),
-                    blurRadius: 6,
+                    color: AppTheme.primaryColor
+                        .withOpacity(overflows ? 0.9 : 0.5),
+                    blurRadius: overflows ? 14 : 6,
+                    spreadRadius: overflows ? 1 : 0,
                   ),
                 ],
               ),

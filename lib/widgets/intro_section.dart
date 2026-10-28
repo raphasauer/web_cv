@@ -207,19 +207,19 @@ class IntroSection extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         _buildSocialButton(
-          FontAwesomeIcons.linkedin,
+          const FaIcon(FontAwesomeIcons.linkedin),
           'LinkedIn',
           () => _launchUrl(ResumeData.linkedIn),
         ),
         const SizedBox(width: 16),
         _buildSocialButton(
-          FontAwesomeIcons.github,
+          const FaIcon(FontAwesomeIcons.github),
           'GitHub',
           () => _launchUrl(ResumeData.github),
         ),
         const SizedBox(width: 16),
         _buildSocialButton(
-          Icons.email,
+          const Icon(Icons.email),
           'Email',
           () => _launchEmail(ResumeData.email),
         ),
@@ -227,7 +227,7 @@ class IntroSection extends StatelessWidget {
     );
   }
 
-  Widget _buildSocialButton(IconData icon, String tooltip, VoidCallback onTap) {
+  Widget _buildSocialButton(Widget icon, String tooltip, VoidCallback onTap) {
     return Tooltip(
       message: tooltip,
       child: InkWell(
@@ -236,12 +236,16 @@ class IntroSection extends StatelessWidget {
         child: Container(
           width: 50,
           height: 50,
+          alignment: Alignment.center,
           decoration: BoxDecoration(
             shape: BoxShape.circle,
             color: AppTheme.cardColor,
             border: Border.all(color: Colors.white.withOpacity(0.1)),
           ),
-          child: Icon(icon, color: AppTheme.primaryColor, size: 22),
+          child: IconTheme(
+            data: const IconThemeData(color: AppTheme.primaryColor, size: 22),
+            child: icon,
+          ),
         ),
       ),
     );
