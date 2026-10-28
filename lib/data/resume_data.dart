@@ -7,8 +7,8 @@ class ResumeData {
   static const String github = "https://github.com/raphasauer"; 
 
   static const String introText = 
-      "High-performance Software Engineer specializing in Mobile (Flutter) and "
-      "Backend (Python/Django) architecture. Currently engineering premium "
+      "High-performance Software Engineer specializing in Mobile (Flutter) "
+      "architecture. Currently engineering premium "
       "digital experiences for BMW & MINI at Ília. I bridge the gap between "
       "complex embedded hardware and seamless user interfaces, delivering "
       "scalable solutions for global markets.";
