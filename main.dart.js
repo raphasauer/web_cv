@@ -70135,7 +70135,7 @@ A.a_6.prototype={
 $1(a){return B.aK.tz(a)},
 $S:62}
 A.a_7.prototype={
-$0(){return this.a.oF("www.linkedin.com/in/raphael-de-castro-228288202")},
+$0(){return this.a.oF("https://www.linkedin.com/in/raphael-d-228288202")},
 $S:0}
 A.a_8.prototype={
 $0(){return this.a.oF("https://github.com/raphasauer")},
